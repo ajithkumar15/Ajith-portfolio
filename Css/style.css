@@ -158,7 +158,7 @@ width: 100%;
 
 .about_container{
     /* background-color: lightsalmon; */
-    margin-top: 50px; 
+    margin-top: 80px; 
     padding: 0px 80px; 
 }
 .about_container h1{
@@ -219,7 +219,7 @@ width: 100%;
 
 .sec4{
    width: 100%;
-   margin-top: 90px;
+   margin-top: 80px;
    padding: 0px 80px;
    /* background-color: #ff00cc; */
 }
@@ -290,7 +290,7 @@ width: 100%;
 }
 /* Section 5 */
 .sec_5{
-    margin-top: 90px;
+    margin-top: 80px;
     /* background-color: aqua; */
     padding: 0px 80px;
 }
@@ -432,7 +432,7 @@ width: 100%;
 .contact_container{
     width: 100%;
     /* background-color: lightcoral; */
-    margin-top: 90px;
+    margin-top: 80px;
     padding: 0px 80px;
 }
 .contact_container h1{
@@ -521,14 +521,14 @@ width: 100%;
     background: #ff00cc;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    margin-top: 60px;
-    padding: 10px 80px;
+    margin-top: 80px;
+    padding: 30px 80px;
 }
 .footer_icon{
     /* background-color: #333399; */
     width: 100%;
     text-align: center;
-    padding-bottom: 5px;
+    padding: 7px 0px;  
 
 }
 .footer_icon a{
