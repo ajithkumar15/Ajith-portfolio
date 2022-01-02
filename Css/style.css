@@ -701,7 +701,7 @@ width: 100%;
     .sec4{
         width: 100%;
         padding: 0;
-        background-color: mediumpurple;
+        /* background-color: mediumpurple; */
     }
     .sec4 h1{
         /* background-color: mediumseagreen; */
@@ -714,7 +714,7 @@ width: 100%;
     }
     .sec4_pro{
         width: 100%;
-        background-color: #ff00cc !important;
+        /* background-color: #ff00cc !important; */
         text-align: center;
         display: flex;
         align-items: center;
