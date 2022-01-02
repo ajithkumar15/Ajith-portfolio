@@ -26,6 +26,12 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+.line{
+    height: 4px;
+    width: 80px;
+    background-color: #ff00cc !important;
+    margin: 10px auto !important;
+}
 
 /* header Section */
 nav{
@@ -162,12 +168,12 @@ width: 100%;
     padding: 0px 80px; 
 }
 .about_container h1{
-    color: #00f;
+    color: rgb(73, 73, 126);
     font-weight: bold;
     font-size: 30px;
     width: 100%;
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-transform: uppercase;
 }
 .about_row{
@@ -224,11 +230,11 @@ width: 100%;
    /* background-color: #ff00cc; */
 }
 .sec4 h1{
-    color: #00f;
+    color: rgb(73, 73, 126) !important;
     font-weight: bold;
     text-align: center;
     width: 100%;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-transform: uppercase;
 }
 .sec4_projects{
@@ -243,8 +249,12 @@ width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+}
+.s-head{
+    color: #ff00cc !important;
+    font-weight: bold;
 }
 .project{
     /* background-color: #000; */
@@ -301,9 +311,9 @@ width: 100%;
 .head5 h1{
     font-size: 30px;
     font-weight: bold;
-    color: #00f;
+    color: rgb(73, 73, 126) !important;
     text-transform: uppercase;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .skill_area{
     /* background-color: #000; */
@@ -437,12 +447,12 @@ width: 100%;
     padding: 0px 80px;
 }
 .contact_container h1{
-    color: #00f;
+    color: rgb(73, 73, 126);
     font-size: 30px;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .row_contact{
     width: 100%;
@@ -691,7 +701,7 @@ width: 100%;
     .sec4{
         width: 100%;
         padding: 0;
-        /* background-color: mediumpurple; */
+        background-color: mediumpurple;
     }
     .sec4 h1{
         /* background-color: mediumseagreen; */
@@ -704,11 +714,11 @@ width: 100%;
     }
     .sec4_pro{
         width: 100%;
-        /* background-color: midnightblue; */
+        background-color: #ff00cc !important;
         text-align: center;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center !important;
     }
     .project{
     text-align: center;
@@ -919,17 +929,18 @@ width: 100%;
      /* Section 4 */
     .sec4{
         width: 100%;
-        /* background-color: mediumpurple; */
+        background-color: mediumpurple !important;
     }
     .sec4_projects{
         width: 100%;
-        /* background-color: mediumseagreen; */
+        background-color: mediumseagreen;
     }
     .sec4_pro{
         width: 100%;
-        /* background-color: mediumvioletred; */
+        background-color: mediumvioletred;
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
     /* section 5 */
     .sec_5{
