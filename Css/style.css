@@ -36,10 +36,14 @@ body{
 /* header Section */
 nav{
     width: 100%;
-    background: #ff00cc;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 75px;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background: #ff00cc;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #333399, #ff00cc);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #333399, #ff00cc); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 75px; 
     line-height: 75px;
     padding: 0px 80px;
 
@@ -48,7 +52,7 @@ nav{
     float: left;
 }
 .logo p{
-    color: #fff;
+    color: whitesmoke;
     font-size: 34px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -65,7 +69,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #fff;
+    color: whitesmoke !important;
     font-size: 18px;
     font-weight: bold;
     /* text-transform: uppercase; */
@@ -73,13 +77,13 @@ nav ul li a{
     /* background-color: chartreuse; */
 }
 nav ul li a:hover{
-    color: #000;
+    color: #fc036b !important;
     font-weight: bold;
-    /* border-bottom: 2px solid #000; */
+    
 }
 
 .checkbtn {
-    color: #fff;
+    color: whitesmoke;
     font-size: 25px;
     cursor: pointer;
     float: right;
@@ -92,26 +96,31 @@ nav ul li a:hover{
 /* Banner Section */
 
 .back{
-background: #ff00cc;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* background: #ff00cc;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #333399, #ff00cc);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #333399, #ff00cc); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 width: 100%;
 }
 .banner{
     background: rgba(0, 0, 0, 0.2);
     /* position: fixed; */
-    width: 100%;
+    width: 100% !important;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 90px 0px;
+    padding: 120px 0px;
 
 }
 .my_pic:hover img{
     transform: scale(1.1);
-    transition: 0.2s;
+    transition: 0.2s ease;
 }
 .my_pic{
     padding-top: 0px;
@@ -121,7 +130,7 @@ width: 100%;
 .my_pic img{
     width: 130px;
     border-radius: 50%;
-    border: 2px solid #000;
+    border: 2px solid #fff;
 }
 .ban_content{
     /* background-color: lightcoral; */
@@ -132,14 +141,14 @@ width: 100%;
     font-size: 40px;
     font-weight: 400;
     text-align: center;
-    color: #fff;
+    color: whitesmoke;
 }
 .ban_content_h2{
     /* background-color: limegreen; */
     text-align: center;
     font-weight: 400;
     font-size: 30px;
-    color: #fff;
+    color: whitesmoke;
 }
 .btn{
     /* background-color: lightcoral; */
@@ -148,15 +157,17 @@ width: 100%;
 .btn button{
     padding: 10px 30px;
     font-size: 18px;
-    color: #fff;
+    font-weight: bold !important;
+    color: #fc036b;
     font-weight: 500;
-    background-color: #000;
+    background-color: #fff;
     border-radius: 20px;
     border: 1px solid #fff;
+    cursor: pointer;
 }
 .btn button:hover{
-    background-color: #fff;
-    color: #000;
+    background-color: #fc036b;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -211,7 +222,7 @@ width: 100%;
     width: 100%;
     font-size: 18px;
     text-align: left;
-    margin-bottom: 5px;
+    margin: 20px 0 !important;
 }
 .about_content p{
     /* background-color: blue; */
@@ -220,6 +231,7 @@ width: 100%;
     font-size: 16px;
     color: #000;
     font-weight: 500;
+    margin: 0;
 }
 /* Section 4 */
 
@@ -253,7 +265,7 @@ width: 100%;
     align-items: center;
 }
 .s-head{
-    color: #ff00cc !important;
+    color: whitesmoke !important;
     font-weight: bold;
 }
 .project{
@@ -291,7 +303,7 @@ width: 100%;
 }
 .project_head h1{
     font-weight: 400;
-    color: #fff;
+    color: whitesmoke;
 }
 .project:hover .project_head{
     transform: scale(1);
@@ -339,17 +351,17 @@ width: 100%;
     /* background-color: lightcoral; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 .skill{
     width: 450px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     position: relative;
     border-radius: 10px;
     padding: 10px;
-    border: 1px solid #000;
-    /* background-color: lightskyblue */
+    /* border: 1px solid #000; */
+    box-shadow: 0 4px 25px rgb(14 36 49 / 15%) !important;
 }
 .skill:hover{
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4); 
@@ -387,7 +399,7 @@ width: 100%;
 }
 .skill_percentage{
     font-size: 16px;
-    color: #fff;
+    color: whitesmoke;
 }
 .html{
     animation: html 1s;
@@ -487,17 +499,19 @@ width: 100%;
     padding-top: 10px;
 }
 .input_field:hover{
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .contact_sec button{
     background-color: #00f;
     border-radius: 20px;
     color: #fff;
     font-size: 18px;
+    font-weight: bold;
 }
 .contact_sec button:hover{
-    background-color: black;
-    color: #fff;
+    background-color: rgb(73, 73, 126);
+    color: whitesmoke;
+    font-weight: bold !important;
 }
 .address_sec{
     /* background-color: brown; */
@@ -513,7 +527,7 @@ width: 100%;
       text-align: left;
       font-size: 24px;
       font-weight: bold;
-      color: #00f;
+      color: rgb(73, 73, 126);
 }
 .address_sec p{
     width: 100%;
@@ -524,43 +538,44 @@ width: 100%;
 
 /* footer Section */
 .footer{
-    width: 100%;
+    width: 100% !important;
+    padding: 12px auto !important;
+    margin-top: 30px !important;
 }
 .footer_container{
     /* background-color: lightcoral; */
-    width: 100%;
-    background: #ff00cc;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    margin-top: 80px;
-    padding: 30px 80px;
+    width: 100% !important;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px;
 }
 .footer_icon{
     /* background-color: #333399; */
     width: 100%;
     text-align: center;
-    padding: 7px 0px;  
+    
 
 }
 .footer_icon a{
-    color: #fff;
-    padding: 0px 10px;
+    color: whitesmoke;
     font-size: 18px;
+    padding: 10px;
     
 }
 .footer_icon a:hover{
-    color: blue;
+    color: #fc036b !important;
 }
 .footer_content{
     /* background-color: blueviolet; */
     text-align: center;
 }
 .footer_content p{
-    color: #fff;
+    color: whitesmoke;
     font-weight: 400;
     width: 100%;
-    /* background-color: tomato; */
-    padding: 0px 30px;
+    margin-top: 10px !important;
+
 }
 
 
@@ -580,9 +595,13 @@ width: 100%;
     }
     nav ul{
         width: 100%;
-        background: #ff00cc;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #0f0c29;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        /* background: #ff00cc;  fallback for old browsers */
+        /* background: -webkit-linear-gradient(to right, #333399, #ff00cc);  Chrome 10-25, Safari 5.1-6 */
+        /* background: linear-gradient(to right, #333399, #ff00cc); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         position: absolute;
         top: 75px;
         left: -100%;
@@ -606,7 +625,7 @@ width: 100%;
     /* banner section */
     .back{
        width: 100%;
-       background-color: lightseagreen;
+       /* background-color: lightseagreen; */
     }
     .banner{
         width: 100%;
@@ -650,7 +669,7 @@ width: 100%;
         width: 100%;
         /* background-color: lightslategrey; */
         text-align: center;
-        padding: 0;
+        padding: 0 !important;
     }
     .about_container h1{
         /* background-color: lightsalmon; */
@@ -659,7 +678,7 @@ width: 100%;
     }
     .about_row{
         /* background-color: lightseagreen; */
-        width: 100%;
+        width: 100% !important;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -758,7 +777,7 @@ width: 100%;
         display: flex;
         flex-direction: column;
         padding: 6px 30px;
-        margin-bottom: 20px;
+        margin-bottom: 20px !important;
         
     }
   
@@ -802,6 +821,7 @@ width: 100%;
     .input_field{
         width: 100%;
     }
+
     .address_sec{
         width: 100%;
         /* background-color: mediumorchid; */
@@ -915,7 +935,7 @@ width: 100%;
          /* background-color: mediumblue; */
      }
      .img_container img{
-         width: 70%;
+         width: 100% !important;
          height: auto;
      }
      .about_content{
