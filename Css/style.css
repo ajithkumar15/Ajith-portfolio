@@ -860,6 +860,7 @@ width: 100%;
     .footer_icon{
         width: 100%;
         /* background-color: yellowgreen; */
+        padding-top: 10px !important;
     }
     .footer_icon a{
         width: 100%;
