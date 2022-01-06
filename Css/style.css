@@ -28,7 +28,7 @@ body{
 }
 .line{
     height: 4px;
-    width: 80px;
+    width: 60px;
     background-color: #ff00cc !important;
     margin: 10px auto !important;
 }
@@ -184,8 +184,6 @@ width: 100%;
     font-size: 30px;
     width: 100%;
     text-align: center;
-    /* text-decoration: underline; */
-    text-transform: uppercase;
 }
 .about_row{
     width: 100%;
@@ -246,8 +244,6 @@ width: 100%;
     font-weight: bold;
     text-align: center;
     width: 100%;
-    /* text-decoration: underline; */
-    text-transform: uppercase;
 }
 .sec4_projects{
     width: 100%;
@@ -324,8 +320,6 @@ width: 100%;
     font-size: 30px;
     font-weight: bold;
     color: rgb(73, 73, 126) !important;
-    text-transform: uppercase;
-    /* text-decoration: underline; */
 }
 .skill_area{
     /* background-color: #000; */
@@ -370,7 +364,7 @@ width: 100%;
 .skill_title{
     /* background-color: #ff00cc; */
     margin-bottom: 10px;
-    color: blue;
+    color: rgb(12, 81, 211) !important;
 }
 .skill_title img{
     margin-right: 10px;
@@ -463,8 +457,6 @@ width: 100%;
     font-size: 30px;
     text-align: center;
     font-weight: bold;
-    text-transform: uppercase;
-    /* text-decoration: underline; */
 }
 .row_contact{
     width: 100%;
