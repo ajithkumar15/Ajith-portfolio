@@ -576,11 +576,13 @@ width: 100%;
 @media screen and (max-width:768px) {
     nav{
      width: 100%;
-     /* background-color: lightcoral; */
+     background-color: lightcoral !important;
      padding: 0px 50px;
+     justify-content: space-between !important;
     }
     .checkbtn{
         display: block;
+        /* background-color: lightcoral !important; */
     }
     nav .logo p{
         font-size: 30px;
@@ -601,6 +603,7 @@ width: 100%;
         transition: 0.4s ease;
         height: auto;
         z-index: 1;
+        padding: 0;
     }
     nav ul li{
         display: block;
