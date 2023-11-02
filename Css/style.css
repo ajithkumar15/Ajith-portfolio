@@ -6,6 +6,10 @@
     --fontfamily: 'Plus Jakarta Sans';
 }
 
+html{
+    scroll-behavior: smooth !important;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -171,6 +175,12 @@ footer h3 {
 
 footer a i{
     font-size: 16px !important;
+    color: #fff !important;
+}
+
+footer a i:hover{
+    color: #000 !important;
+    transition: .5s ease-in-out;
 }
 
 footer .copyright p{

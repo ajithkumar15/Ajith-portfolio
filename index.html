@@ -83,9 +83,9 @@
           <div class="line"></div>
         </div>
         <div class="col-lg-6">
-          <img src="./images/About-img.jpg" alt="About-img" class="img-fluid">
+          <img src="./images/About-img.jpg" alt="About-img" class="img-fluid about-img">
         </div>
-        <div class="col-lg-6 text-justify">
+        <div class="col-lg-6 text-justify about-text">
           <p>
             With a career centered on web development, I'm a dedicated problem solver, passionate about continuous
             self-learning. I leverage free online resources like FreeCodeCamp, W3Schools, and YouTube tutorials to stay
@@ -249,10 +249,10 @@
     <div class="container py-2">
         <div class="row d-flex align-items-center justify-content-center">
             <div class="col-lg-6 mb-3 mb-lg-0">
-                <a href="https://www.facebook.com/people/Ajith-Kumar/pfbid02ryntbYyg79cwmPqCYpAYWgx75gHny9fdvBtjqEPRLhknzwyf6evqeMkQneMbFY4zl/" class="text-light"><i class="fab fa-facebook-f fa-2x mx-2"></i></a>
-                <a href="#" class="text-light"><i class="fab fa-twitter fa-2x mx-2"></i></a>
-                <a href="https://www.linkedin.com/in/ajith-kumar-647569218/" class="text-light"><i class="fa-brands fa-linkedin-in mx-2"></i></a>
-                <a href="https://github.com/" class="text-light"><i class="fa-brands fa-github mx-2"></i></a>
+                <a class="social-icon" href="https://www.facebook.com/people/Ajith-Kumar/pfbid02ryntbYyg79cwmPqCYpAYWgx75gHny9fdvBtjqEPRLhknzwyf6evqeMkQneMbFY4zl/" class="text-light"><i class="fab fa-facebook-f fa-2x mx-2"></i></a>
+                <a class="social-icon" href="#" class="text-light"><i class="fab fa-twitter fa-2x mx-2"></i></a>
+                <a class="social-icon" href="https://www.linkedin.com/in/ajith-kumar-647569218/" class="text-light"><i class="fa-brands fa-linkedin-in mx-2"></i></a>
+                <a class="social-icon" href="https://github.com/" class="text-light"><i class="fa-brands fa-github mx-2"></i></a>
             </div>
             <div class="col-lg-6 copyright">
               <p class="mb-0" id="date"></p>
@@ -292,6 +292,24 @@
         },
       }
     })
+
+    // Scroll 
+    ScrollReveal({ 
+      reset: true,
+      distance: '60px',
+      duration: 2500,
+      delay: 400      
+    });
+
+    ScrollReveal().reveal('.home-text, .sq-img' , { delay: 500, origin:'top' });
+    ScrollReveal().reveal('.btn-contact, .about-text', { delay: 500, origin: 'bottom' });
+    ScrollReveal().reveal('.heading-style, .line, .copyright', { delay: 500, origin: 'left' });
+    ScrollReveal().reveal('.about-img', { delay: 600, origin: 'right' });
+    ScrollReveal().reveal('.owl-carousel', { delay: 700, origin: 'bottom' });
+    ScrollReveal().reveal('.prog, .social-icon', { delay: 600, origin: 'right', interval: 200 });
+    ScrollReveal().reveal('.contact', { delay: 500, origin: 'left' });
+    ScrollReveal().reveal('.contact-text', { delay: 500, origin: 'right' });
+
   </script>
 
   <body>
