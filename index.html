@@ -267,11 +267,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
   <script>
+    document.addEventListener("DOMContentLoaded", function() {
     // Owl Carousel 
     $('.owl-carousel').owlCarousel({
       loop: true,
-      margin: 10,
       nav: true,
+      margin: 10,
       autoplay: true,
       responsive: {
         0: {
@@ -301,7 +302,7 @@
     ScrollReveal().reveal('.prog, .social-icon', { delay: 600, origin: 'right', interval: 200 });
     ScrollReveal().reveal('.contact', { delay: 500, origin: 'left' });
     ScrollReveal().reveal('.contact-text', { delay: 500, origin: 'right' });
-
+  });
   </script>
 </body>
 
